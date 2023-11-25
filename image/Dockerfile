@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:latest
 
 COPY . /container
 RUN /container/build.sh
